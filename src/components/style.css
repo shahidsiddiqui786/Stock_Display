@@ -1,0 +1,36 @@
+
+.bar_wrapper{
+    color: rgb(35, 42, 49);
+    color-scheme: light;
+    display: flex;
+    margin: 0.5rem;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 13px;
+    font-weight: 500;
+    list-style-type: none;
+    text-rendering: optimizeLegibility;
+ }
+ 
+ .bar {
+     background-color: rgb(224, 240, 255);
+     color: rgb(35,42,49);
+     color-scheme: light;
+     display: list-item;
+     margin: 0.5rem;
+ }
+ 
+ .custom_btn {
+     align-items: flex-start;
+     appearance: button;
+     background-color: burlywood;
+     border: none;
+     margin: 4%;
+ }
+
+ .loader {
+    height: 60vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
